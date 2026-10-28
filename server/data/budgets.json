@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "lbe4u3qbmuzozsvu",
+    "user": "demo-user-id-12345",
+    "category": "Housing & Rent",
+    "limit": 1500,
+    "month": "2026-10"
+  },
+  {
+    "_id": "ba46cnwamuzozsvu",
+    "user": "demo-user-id-12345",
+    "category": "Groceries",
+    "limit": 450,
+    "month": "2026-10"
+  },
+  {
+    "_id": "so33d2l5muzozsvu",
+    "user": "demo-user-id-12345",
+    "category": "Food & Dining",
+    "limit": 250,
+    "month": "2026-10"
+  },
+  {
+    "_id": "no8sp1oimuzozsvu",
+    "user": "demo-user-id-12345",
+    "category": "Utilities",
+    "limit": 200,
+    "month": "2026-10"
+  },
+  {
+    "_id": "0zxjldw5mvsdy8wi",
+    "user": "hgf3zt66mvs0nbza",
+    "category": "Housing & Rent",
+    "limit": 100,
+    "month": "2026-10",
+    "createdAt": "2026-10-28T17:25:48.306Z"
+  }
+]

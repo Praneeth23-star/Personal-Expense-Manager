@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "9slosyesmvrv4arn",
+    "user": "demo-user-id-12345",
+    "name": "Netflix 4K Premium",
+    "amount": 19.99,
+    "billingCycle": "monthly",
+    "category": "Entertainment",
+    "nextBillingDate": "2026-10-17T18:30:00.000Z",
+    "autoRenew": true,
+    "notes": "Family streaming bundle",
+    "createdAt": "2026-10-28T08:38:37.955Z"
+  },
+  {
+    "_id": "nrgw6quvmvrv4arn",
+    "user": "demo-user-id-12345",
+    "name": "Spotify Premium Individual",
+    "amount": 10.99,
+    "billingCycle": "monthly",
+    "category": "Entertainment",
+    "nextBillingDate": "2026-10-21T18:30:00.000Z",
+    "autoRenew": true,
+    "notes": "Music & podcasts",
+    "createdAt": "2026-10-28T08:38:37.955Z"
+  },
+  {
+    "_id": "0h813m07mvrv4arn",
+    "user": "demo-user-id-12345",
+    "name": "Gym & Fitness Membership",
+    "amount": 45,
+    "billingCycle": "monthly",
+    "category": "Health",
+    "nextBillingDate": "2026-10-24T18:30:00.000Z",
+    "autoRenew": true,
+    "notes": "Includes pool and yoga classes",
+    "createdAt": "2026-10-28T08:38:37.955Z"
+  },
+  {
+    "_id": "cqqw5v56mvrv4arn",
+    "user": "demo-user-id-12345",
+    "name": "High-Speed Fiber Internet",
+    "amount": 60,
+    "billingCycle": "monthly",
+    "category": "Utilities",
+    "nextBillingDate": "2026-10-27T18:30:00.000Z",
+    "autoRenew": true,
+    "notes": "Gigabit home internet",
+    "createdAt": "2026-10-28T08:38:37.955Z"
+  }
+]

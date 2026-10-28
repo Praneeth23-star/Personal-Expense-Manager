@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "demo-user-id-12345",
+    "name": "Alex Johnson",
+    "email": "demo@expensemanager.com",
+    "password": "$2a$10$Na0sN3a4PNAFh3TCEsfxXuSKbPOHv5wRTM5cYkEsWwCN41v4T6Wju",
+    "currency": "$",
+    "createdAt": "2026-10-08T15:29:37.527Z"
+  },
+  {
+    "_id": "30yspyhamuzp0536",
+    "name": "Test User",
+    "email": "test@example.com",
+    "password": "$2a$10$HGeAiab8.oLWdwSpdjhapuvMT3EXHLo2itX0YIenHu1/5c7HIzgAO",
+    "currency": "$",
+    "createdAt": "2026-10-08T15:29:53.346Z"
+  },
+  {
+    "_id": "m7062b2lmuzp5jj4",
+    "name": "Praneeth Reddy",
+    "email": "praneeth@gmail.com",
+    "password": "$2a$10$/8f.rEN5h4LeumsR1RNQ4.UjQH8K1rTO8vPsYf2Ku5OYlyTsC8hlK",
+    "currency": "₹",
+    "createdAt": "2026-10-08T15:34:05.344Z"
+  },
+  {
+    "_id": "o9rlde1imvs0h4hm",
+    "name": "Praneeth",
+    "email": "reddypraneeth@gamil.com",
+    "password": "$2a$10$7J/ewURMpTBL47C0oXFaC.HNecKKNA.QqSLB9kp8t6LImwMomK4QW",
+    "currency": "₹",
+    "createdAt": "2026-10-28T11:08:34.426Z"
+  },
+  {
+    "_id": "hgf3zt66mvs0nbza",
+    "name": "nanireddy",
+    "email": "reddynani@gmail.com",
+    "password": "$2a$10$LJqajInxHGB8QdlU0sFH5eyfprsH1vbhVtjK94UVPcYt5DjpEzHj6",
+    "currency": "₹",
+    "createdAt": "2026-10-28T11:13:24.070Z"
+  }
+]

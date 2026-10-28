@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "j33dy87wmvrv4ark",
+    "user": "demo-user-id-12345",
+    "title": "Emergency Rainy Day Fund",
+    "targetAmount": 5000,
+    "currentAmount": 2650,
+    "deadline": "2027-03-31T18:30:00.000Z",
+    "category": "Emergency",
+    "color": "#10b981",
+    "isCompleted": false,
+    "createdAt": "2026-10-28T08:38:37.952Z"
+  },
+  {
+    "_id": "p7hqo5cnmvrv4ark",
+    "user": "demo-user-id-12345",
+    "title": "New High-End Development Laptop",
+    "targetAmount": 1800,
+    "currentAmount": 1200,
+    "deadline": "2027-01-14T18:30:00.000Z",
+    "category": "Gadget",
+    "color": "#6366f1",
+    "isCompleted": false,
+    "createdAt": "2026-10-28T08:38:37.952Z"
+  },
+  {
+    "_id": "zadvgypbmvrv4ark",
+    "user": "demo-user-id-12345",
+    "title": "Summer Vacation Trip",
+    "targetAmount": 2500,
+    "currentAmount": 950,
+    "deadline": "2027-05-31T18:30:00.000Z",
+    "category": "Travel",
+    "color": "#f59e0b",
+    "isCompleted": false,
+    "createdAt": "2026-10-28T08:38:37.952Z"
+  },
+  {
+    "_id": "j0uetdr7mvsdz695",
+    "user": "hgf3zt66mvs0nbza",
+    "title": "BirthDay Gift",
+    "targetAmount": 10000,
+    "currentAmount": 500,
+    "deadline": "2027-01-26T00:00:00.000Z",
+    "category": "Savings",
+    "color": "#ef4444",
+    "isCompleted": false,
+    "createdAt": "2026-10-28T17:26:31.529Z"
+  }
+]
