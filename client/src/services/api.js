@@ -2,7 +2,9 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL:
+    import.meta.env.VITE_API_URL ||
+    '/api',
 });
 
 // Attach JWT token to API requests
@@ -38,7 +40,9 @@ API.interceptors.response.use(
       localStorage.removeItem('token');
       localStorage.removeItem('user');
 
-      window.dispatchEvent(new Event('auth:session-expired'));
+      window.dispatchEvent(
+        new Event('auth:session-expired')
+      );
     }
 
     return Promise.reject(error);
@@ -49,7 +53,12 @@ API.interceptors.response.use(
 export const loginApi = (email, password) =>
   API.post('/auth/login', { email, password });
 
-export const registerApi = (name, email, password, currency) =>
+export const registerApi = (
+  name,
+  email,
+  password,
+  currency
+) =>
   API.post('/auth/register', {
     name,
     email,
@@ -57,7 +66,8 @@ export const registerApi = (name, email, password, currency) =>
     currency,
   });
 
-export const getMeApi = () => API.get('/auth/me');
+export const getMeApi = () =>
+  API.get('/auth/me');
 
 export const updateMeApi = (data) =>
   API.put('/auth/me', data);
