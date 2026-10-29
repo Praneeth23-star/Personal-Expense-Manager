@@ -1,29 +1,34 @@
+
 const mongoose = require('mongoose');
 
 global.isMongoConnected = false;
 
 const connectDB = async () => {
-  const uri = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/expense_manager';
+  const uri = process.env.MONGODB_URI;
+
+  if (!uri) {
+    throw new Error('MONGODB_URI is missing from environment variables');
+  }
 
   try {
-    // Attempt standard connection with 1.5s timeout
     await mongoose.connect(uri, {
-      serverSelectionTimeoutMS: 1500,
+      serverSelectionTimeoutMS: 10000,
     });
+
     global.isMongoConnected = true;
-    console.log(`✅ MongoDB connected successfully to: ${uri}`);
+    console.log('MongoDB Atlas connected successfully!');
+    console.log(`Database: ${mongoose.connection.name}`);
   } catch (err) {
     global.isMongoConnected = false;
-    console.log(`ℹ️ External MongoDB not active (${err.message}).`);
-    console.log(`⚡ Activated high-speed file-backed local database engine!`);
+    console.error('MongoDB Atlas connection failed:', err.message);
+    throw err;
   }
 };
 
 const disconnectDB = async () => {
   if (global.isMongoConnected) {
-    try {
-      await mongoose.disconnect();
-    } catch (e) {}
+    await mongoose.disconnect();
+    global.isMongoConnected = false;
   }
 };
 
